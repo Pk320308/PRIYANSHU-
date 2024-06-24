@@ -1,0 +1,79 @@
+
+body {
+    font-family: Arial, sans-serif;
+    /* background-color: #c2894f; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(https://img.freepik.com/free-photo/autumn-leaf-falling-revealing-intricate-leaf-vein-generated-by-ai_188544-9869.jpg);
+    background-position: center;
+    /* position: absolute; */
+    background-size: cover;
+}
+.profile img {
+    height: 40px;
+    width: 50px;
+    border-radius:}
+    .nav a {
+        margin: 0 5px;
+        
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        display: flex;
+        writing-mode: row;
+        transform: rotate(0deg);
+        text-align: center;
+      }
+      .nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        text-align: center;
+      }
+      .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        background-color: rgba(15, 14, 14, 0.8);
+        position: fixed;
+        width: 100%;
+        top: 0%;
+        text-align: center;
+      }        
+.todo-list {
+    background-color: #95968b;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+.footer {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;}
